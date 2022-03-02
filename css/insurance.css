@@ -18,8 +18,7 @@
   -webkit-box-pack: justify;
       -ms-flex-pack: justify;
           justify-content: space-between;
-  margin: 0;
-  padding-top: 105px;
+  margin-top: 105px;
 }
 
 .insurance__div::after {
@@ -102,7 +101,7 @@
     background-color: #2D2641;
     height: 500px;
     margin: 0;
-    padding: 0px 20px;
+    padding: 93px 20px;
   }
   .insurance__img {
     display: none;
@@ -120,8 +119,7 @@
     -webkit-box-direction: normal;
         -ms-flex-direction: column;
             flex-direction: column;
-    padding-top: 93px;
-    padding-bottom: 93px;
+    margin: 0;
   }
   .insurance__div::before {
     position: absolute;
