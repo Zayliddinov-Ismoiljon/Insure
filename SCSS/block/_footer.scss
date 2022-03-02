@@ -1,0 +1,118 @@
+.site-footer{
+    margin-top: 150px;
+    padding: 64px 0px;
+}
+
+.site-footer__adress{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin: 0;
+    padding: 0;
+}
+
+.site-footer__link:hover{
+    opacity: 0.6;
+}
+
+.site-footer__list{
+    list-style: none;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    width: 144px;
+    margin: 0;
+    padding: 0;
+}
+
+.site-footer__svg:hover{
+    fill: #2C2830;
+}
+
+.site-footer__span{
+    display: block;
+    width: 1110px;
+    height: 1px;
+    background-color: #DADADA;
+    margin-top: 36px;
+    margin-bottom: 48px;
+    padding: 0;
+}
+
+.site-footer__menu{
+    list-style: none;
+    display: flex;
+    justify-content: space-between;
+    width: 1110px;
+    margin: 0;
+    padding: 0;
+}
+
+.site-footer__item{
+    width: 255px;
+    margin: 0;
+    padding: 0;
+}
+
+.site-footer__strong{
+    display: block;
+    font-family: "Karla", sans-serif;
+    font-weight: 700;
+    color: #837D88;
+    text-transform: uppercase;
+    font-size: 13px;
+    margin-bottom: 36px;
+    padding: 0;
+}
+
+.site-footer__link3{
+    display: block;
+    text-decoration: none;
+    font-family: "Karla", sans-serif;
+    font-weight: 700;
+    font-size: 13px;
+    color: #2D2641;
+    margin-bottom: 16px;
+}
+
+.site-footer__link3:hover{
+    text-decoration-line: underline;
+}
+
+@media only screen and(max-width:375px){
+    .container{
+        width: 100%;
+    }
+
+    .site-footer__adress{
+        width: 100%;
+        display: flex;
+        flex-direction: column;
+        text-align: center;
+    }
+
+    .site-footer__list{
+        max-width: 375px;
+        margin-top: 34px;
+        margin-right:  auto;
+        margin-left: auto;
+        margin-bottom: 40px;
+    }
+
+    .site-footer__span{
+        width: 327px;
+        margin: 0 auto;
+    }
+
+    .site-footer__menu{
+        width: 100%;
+        display: flex;
+        flex-direction: column;
+        margin-top: 40px;
+    }
+
+    .site-footer__item{
+        width: 100%;
+        text-align: center;
+    }
+}

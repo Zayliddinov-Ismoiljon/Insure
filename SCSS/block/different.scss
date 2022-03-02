@@ -1,0 +1,136 @@
+.different{
+    margin-top: 305px;
+    padding: 0;
+}
+
+.different_div{
+    position: relative;
+    margin: 0;
+    padding: 0;
+}
+
+.different_div::before{
+    position: absolute;
+    z-index: 1;
+    content: "";
+    background-image: url(../../images/line2.svg);
+    background-repeat: no-repeat;
+    width: 209px;
+    height: 515px;
+    top: -496px;
+    left: -150px;
+}
+
+.different__span{
+    display: block;
+    width: 150px;
+    height: 1px;
+    background-color: #C396C6;
+    margin-bottom: 63px;
+    padding: 0;
+}
+
+.different__title{
+    font-family: "DM Serif Display", sans-serif;
+    font-weight: 400;
+    font-size: 72px;
+    margin: 0;
+    padding: 0;
+}
+
+.different__list{
+    list-style: none;
+    display: flex;
+    justify-content: space-between;
+    margin-top: 96px;
+    padding: 0;
+}
+
+.different__item{
+    width: 350px;
+    margin: 0;
+    padding: 0;
+}
+
+.different__img{
+    width: 86px;
+    height: 86px;
+}
+
+.different__heading{
+    font-family: "DM Serif Display", sans-serif;
+    font-weight: 400;
+    font-size: 28px;
+    margin-top: 32px;
+    margin-bottom: 16px;
+    padding: 0;
+}
+
+.different__text{
+    font-family: "KArla", sans-serif;
+    font-weight: 400;
+    font-size: 16px;
+    color: #837D88;
+}
+
+@media only screen and (max-width:375px){
+    .container{
+        width: 100%;
+        padding: 0;
+    }
+
+    .different{
+        width: 100%;
+        padding: 0px 20px ;
+        margin-top: 140px;
+    }
+
+    .different_div{
+        position: relative;
+        width: 100%;
+        text-align: center;
+    }
+
+    .different_div::before{
+        display: none;
+    }
+
+    .different_div::after{
+        position: absolute;
+        z-index: 1;
+        content: " ";
+        background-image: url(../../images/line5.svg);
+        background-repeat: no-repeat;
+        width: 377px;
+        height: 352px;
+        top: -238px;
+        left: 230px;
+    }
+
+    .different__span{
+        display: block;
+        margin: 0 auto;
+        margin-bottom: 40px;
+    }
+
+    .different__title{
+        font-size: 48px;
+    }
+
+    .different__list{
+        margin-top: 80px;
+        display: flex;
+        flex-direction: column;
+        width: 100%;
+    }
+
+    .different__item{
+        width: 100%;
+        text-align: center;
+        margin-bottom: 56px;
+        padding: 0px 24px;
+    }
+
+    
+    
+}
